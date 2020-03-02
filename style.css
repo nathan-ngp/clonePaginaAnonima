@@ -22,7 +22,6 @@
     width: 700px;
     height: 400px;
     margin: 10px 0 0 350px;
-    border: solid 2px red;
     text-align: left;
     display: block;
 }
@@ -42,10 +41,15 @@ h1{
     height: 200px;
     margin:0;
     display: flex;
-    border: 2px black solid
+    flex-wrap: wrap;
 }
 
 .doistextos p{
     font-size: 15px;
-    margin: 20px;
+    margin: 0 40px 0 0;
+}
+
+ul{
+    color: white;
+    font-size: 13px;
 }
